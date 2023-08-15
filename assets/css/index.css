@@ -1,1 +1,35 @@
 /* Your code here */
+h1,
+h2 {
+    text-align: center;
+}
+
+#reset-button {
+    display: flex;
+    margin: 1rem auto;
+}
+
+#gameBoardContainer {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(9, 3rem);
+    grid-template-rows: repeat(9, 3rem);
+    margin: auto;
+    width: fit-content;
+}
+
+.square {
+    align-content: center;
+    border: 2px solid black;
+    display: grid;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.hit {
+    background-color: green;
+}
+
+.miss {
+    background-color: red;
+}
